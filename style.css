@@ -88,3 +88,60 @@ button:hover{
     cursor: pointer;
     font-weight: bolder;
 }
+@media (max-width:1200px) {
+    .cabeça{
+        position: relative;
+        left: 300px;
+        top: 30px;
+    }
+}
+@media (max-width:1000px) {
+    .cabeça{
+        position: relative;
+        left: 200px;
+        top: 30px;
+    }
+}
+@media (max-width:900px) {
+    .cabeça{
+        position: relative;
+        left: 100px;
+        top: 30px;
+    }
+}
+@media (max-width:700px) {
+    .cabeça{
+        position: relative;
+        left: 50px;
+        top: 30px;
+    }
+}
+@media (max-width:600px) {
+    .cabeça{
+        position: relative;
+        left: 2%;
+        top: 10%;
+        width: 450px;
+        height: 400px;
+    }
+    .face{
+        width: 400px;
+        height: 300px;
+        position: relative;
+        left: 20px;
+        top: 60px;
+    }
+    form{
+        position: relative;  
+        top: 100px;
+        left: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .olhod{
+        position: relative;
+        top: 60px;
+        left: 270px;
+    }
+   
+}
